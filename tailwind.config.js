@@ -18,19 +18,27 @@ module.exports = {
     },
     extend: {
       colors: {
+        'moshal': '#2362b4',
+        'moshal-light': '#e6f1ff',
+        'dreamers': '#79be4d',
+        'scholars': '#41c3ff',
+        'alumni': '#ebb22a',
+        'leaders': '#e15546',
+        'light':'#F5F5F5',
+        'gray':'#606060',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
-        },
-        secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
-        },
+        // primary: {
+        //   DEFAULT: "hsl(var(--primary))",
+        //   foreground: "hsl(var(--primary-foreground))",
+        // },
+        // secondary: {
+        //   DEFAULT: "hsl(var(--secondary))",
+        //   foreground: "hsl(var(--secondary-foreground))",
+        // },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
@@ -70,6 +78,23 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      typography: {
+        // text-primary
+        'text-primary': {
+          fontWeight: '400',
+          fontFamily: ['Lora', 'sans-serif'], 
+        },
+        // text-secondary
+        'text-secondary': {
+          fontWeight: '400', // font-normal
+          fontFamily: ['Liebling Pro', 'Helvetica'],
+        },
+        // text-bold
+        'text-bold': {
+          fontWeight: '500', // font-medium
+          fontFamily: ['Liebling Pro', 'sans-serif'],
+        },
       },
     },
   },
