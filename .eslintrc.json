@@ -1,3 +1,20 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "next",
+    "turbo",
+    "next/core-web-vitals",
+    "prettier",
+    "eslint:recommended",
+     "next"
+  ],
+  "plugins": ["react-hooks", "prettier"],
+  "rules": {
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "prettier/prettier": "warn",
+    "react-hooks/rules-of-hooks": "warn",
+    "react-hooks/exhaustive-deps": "warn"
+    
+  }
 }
